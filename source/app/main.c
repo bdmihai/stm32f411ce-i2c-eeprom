@@ -112,7 +112,7 @@ static void vTaskDisplay(void *pvParameters)
         // loop around the eeprom
         counter += 16;
         if (counter >= EEPROM_SIZE) {
-           counter = 0; 
+            counter = 0;
         }
 
         // read i2c eeprom
@@ -129,7 +129,7 @@ static void vTaskDisplay(void *pvParameters)
         // loop around the eeprom
         counter += 16;
         if (counter >= EEPROM_SIZE) {
-           counter = 0; 
+            counter = 0;
         }
 
         // display
